@@ -1,0 +1,9 @@
+zuul:
+  routes:
+      productstore:
+        path: /productstore/**
+        url: http://localhost:8080/store
+        
+server:
+  port: 8090        
+        
